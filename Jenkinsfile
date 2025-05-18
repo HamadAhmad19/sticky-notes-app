@@ -18,7 +18,7 @@ pipeline {
         
         stage('Fetch code ') {
             steps {
-                sh 'git clone https://github.com/Zaman541/sticky-notes-app.git /var/lib/jenkins/DevOps/php/'
+                sh 'git clone https://github.com/HamadAhmad19/sticky-notes-app.git /var/lib/jenkins/DevOps/php/'
             }
         }
 
